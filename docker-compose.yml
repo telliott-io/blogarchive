@@ -8,3 +8,4 @@ services:
       - $PWD/vendor/bundle:/usr/local/bundle
     ports:
       - 4000:4000
+      
