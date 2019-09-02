@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Docker for Mac: First Impressions"
-image: /assets/docker-for-mac-first-impressions/icon.png
+image: /blogarchive/assets/docker-for-mac-first-impressions/icon.png
 tags:
  -
 ---
@@ -14,7 +14,7 @@ I signed up for the beta and got my hands on Docker for Mac a little over a week
 
 Starting off with a huge positive, with Docker for Mac, you don't have to launch a Quickstart terminal or SSH into a VM. You just launch your favorite terminal and run `docker` commands directly. This removes a huge barrier to using Docker for development in my eyes, as you can now just add Docker to the workflow you've grown comfortable with, rather than having to re-shape your workflow to suit Docker.
 
-![Start Typing Docker Commands!](/assets/docker-for-mac-first-impressions/docker_for_mac_beta.png)
+![Start Typing Docker Commands!](/blogarchive/assets/docker-for-mac-first-impressions/docker_for_mac_beta.png)
 
 It's clear there's a lot of excitement around this release, and in the space of a month, the [Feedback Forum](https://forums.docker.com/c/docker-for-mac) has become highly active. Any questions that I had (more on those later) were asked and answered before I got there, which is highly encouraging.
 
@@ -28,7 +28,7 @@ There is also the potential for clashes with other software using hypervisor fea
 
 My main source of frustration was related to networking. By default, Docker for Mac exposes ports via a separate IP (as opposed to the loopback address), which is accessible from the address 'docker.local'. Having failed to read through the Getting Started guide thoroughly, I missed this and spent a few minutes trying to figure out why the port wasn't being forwarded. Once I'd figured this out, it was all fine and dandy for a while, until suddenly (either due to being on a hotel network with a captive portal or some configuration change I missed), I found that all my containers weren't getting their ports forwarded, and were showing up in `docker ps` with an IP of 'None'.
 
-![Docker PS output "None:9000->9000tcp"](/assets/docker-for-mac-first-impressions/none.png)
+![Docker PS output "None:9000->9000tcp"](/blogarchive/assets/docker-for-mac-first-impressions/none.png)
 
 After a lot of fruitless fiddling, the forums came to the rescue, and [this post](https://forums.docker.com/t/docker-for-mac-ip-change-to-none-after-update/9690/6) provided a simple fix, by changing the port forwarding setting via the pinata tool:
 

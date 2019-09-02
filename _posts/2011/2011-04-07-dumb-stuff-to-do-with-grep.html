@@ -23,7 +23,7 @@ author:
 
 
 ---
-<p><a title="Get less dumber by theothertomelliott, on Flickr" href="http://www.flickr.com/photos/45535721@N05/5597509899/"><img style="width: 240px; height: 191px; margin: 5px; float: right;" src="/assets/5597509899_a9e2a2fbcf_m.jpg" alt="Get less dumber" /></a><strong>Sometimes, all it takes is a little command-line snafu to bring a programmer's faith in himself crashing to the ground like an airliner suffering metal fatigue.</strong></p>
+<p><a title="Get less dumber by theothertomelliott, on Flickr" href="http://www.flickr.com/photos/45535721@N05/5597509899/"><img style="width: 240px; height: 191px; margin: 5px; float: right;" src="/blogarchive/assets/5597509899_a9e2a2fbcf_m.jpg" alt="Get less dumber" /></a><strong>Sometimes, all it takes is a little command-line snafu to bring a programmer's faith in himself crashing to the ground like an airliner suffering metal fatigue.</strong></p>
 <p>Today at work, I've been engaging in the wonderfully mechanical task of updating some open source libraries we use in the product. All I had to do was find which build files referenced the jars, and bump the numbers to whatever maven had in the online repos.</p>
 <p>Easy, I thought, just a quick grep for the package name. I'll be done before lunch. Thinking I was being dead clever, I redirected the output to a textfile I could tail and further search at my leisure. So I tapped out the following:</p>
 <pre>grep -r "com.somedude.a.library" * &gt; refs.txt</pre>

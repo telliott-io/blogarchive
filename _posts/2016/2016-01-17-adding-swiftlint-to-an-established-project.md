@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adding SwiftLint to an Established Project"
-image: /assets/swiftlogo.png
+image: /blogarchive/assets/swiftlogo.png
 tags:
  -
 ---
@@ -24,7 +24,7 @@ SwiftLint is included in a project by adding a "Run Script" phase that executes 
 
 I recommend putting this run script after the linking step, since errors during linting will stop the compilation process and mask any compilation errors, which are important if you're trying to correct these very linting errors.
 
-![The Run Script Phase](/assets/swiftlintrunphase.png)
+![The Run Script Phase](/blogarchive/assets/swiftlintrunphase.png)
 
 ## Autocorrect is your friend
 

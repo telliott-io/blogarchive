@@ -2,7 +2,7 @@
 layout: post
 title: "meetingtime: A Schedule Calculator for Go"
 date: "2016-11-20 17:59:42 -0500"
-image: /media/logos/gopher.png
+image: /blogarchive/media/logos/gopher.png
 ---
 
 If you're working on a Go (golang) project that deals with regular events, you'll no doubt find yourself having to calculate upcoming dates given a less than straightforward brief, such as "the first and third Monday of each month". [meetingtime](https://github.com/theothertomelliott/meetingtime) makes this a bit easier, taking simple structs describing your schedule, and providing the date and time for upcoming or past meetings.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bulk Unwatch Webapp for GitHub"
-image: /assets/bulk-unwatch-webapp-for-github/eyecon.png
+image: /blogarchive/assets/bulk-unwatch-webapp-for-github/eyecon.png
 tags:
  -
 ---
@@ -12,7 +12,7 @@ This wouldn't have been so bad, but this particular organization had over 160 re
 
 Faced with the wonderfully monotonous task of clicking through the better part of 200 links, I took a look at the [GitHub API](https://developer.github.com/v3/) and built myself a [bulk unwatch webapp](https://github-unwatch.herokuapp.com/).
 
-![Screenshot](/assets/bulk-unwatch-webapp-for-github/screenshot.png)
+![Screenshot](/blogarchive/assets/bulk-unwatch-webapp-for-github/screenshot.png)
 
 If you find yourself being annoyed by floods of repo update emails, this might be the app for you!
 

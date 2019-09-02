@@ -2,7 +2,7 @@
 layout: post
 title: "Speaker Alert is Now Open Source!"
 date: "2016-11-01 08:12:24 -0400"
-image: /assets/SpeakerAlert-Icon.png
+image: /blogarchive/assets/SpeakerAlert-Icon.png
 ---
 
 Speaker Alert has always been 100% free, but has been in a private repository for much of it's lifetime. There was absolutely no reason for this, so Speaker Alert is open source as of this morning!

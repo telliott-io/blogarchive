@@ -2,7 +2,7 @@
 layout: post
 title: "Three (ish) ways to implement timeouts in Go"
 date: "2016-09-29 11:35:54 -0400"
-image: /media/logos/gopher.png
+image: /blogarchive/media/logos/gopher.png
 ---
 
 Timeouts are a common concurrency pattern. You want to wait for a long-running task, but you don't want to wait forever. There are a few ways to implement a timeout in Go, some easier to manage than others. I'm going to outline three of them (although the first one I'd never suggest using, hence "ish"), and in case you want to skip ahead, the third method is the one I prefer.

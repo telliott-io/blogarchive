@@ -2,12 +2,12 @@
 layout: post
 title: "How I Migrated From Wordpress To Jekyll"
 published: true
-image: /assets/jekyll-logo.png
+image: /blogarchive/assets/jekyll-logo.png
 tags:
  -
 ---
 
-![GitHub](/assets/jekyll-logo.png){: .alignright} After my [recent post](/2015/07/17/this-blog-now-on-github-pages.html) on my reasons for moving from Wordpress to Jekyll, here's an outline of my experience of the process.
+![GitHub](/blogarchive/assets/jekyll-logo.png){: .alignright} After my [recent post](/2015/07/17/this-blog-now-on-github-pages.html) on my reasons for moving from Wordpress to Jekyll, here's an outline of my experience of the process.
 
 This process was complicated slightly by my blog's history - having started as a Drupal site way back in 2008, then moved to Wordpress and bounced from shared web hosting to whatever VPS service I liked the most at the time.
 

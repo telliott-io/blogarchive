@@ -2,7 +2,7 @@
 layout: post
 title: "Tutorial: Keep your iOS and watchOS2 apps synchronized with WatchConnectivity"
 published: true
-image: /assets/xcode-icon.png
+image: /blogarchive/assets/xcode-icon.png
 tags:
  -
 ---
@@ -13,7 +13,7 @@ Since watch apps are tied to iOS apps, and the watch interface limits input and 
 
 This tutorial is intended to give you a brief introduction to WatchConnectivity, with a simple example of sending data from an iOS device to an Apple Watch. We will build a simple watch-enabled app that sends user-entered text from iOS to watch OS.
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/running-app.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/running-app.png){: .center-block}
 
 Full source is available on GitHub, and each step of the tutorial will include a link to the associated commit.
 
@@ -32,11 +32,11 @@ GitHub: [Swift](https://github.com/theothertomelliott/WatchConnectivityTutorial/
 
 First thing's first, we need a project to work in. Choose *File->New->Project...* to open the project template dialog, then select *watchOS->Application* to bring up the (currently only) watchOS+iOS app option:
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/step1-createproject-1.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/step1-createproject-1.png){: .center-block}
 
 Press next to bring up the project options. For this example we'll be using a Swift project. We're only concerned about the watchOS interface at the moment, so you can deselect "Include Notification Scene" (and the test options if you wish).
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/step1-createproject-2.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/step1-createproject-2.png){: .center-block}
 
 ## 2. Add the WatchConnectivity framework
 GitHub: [Swift](https://github.com/theothertomelliott/WatchConnectivityTutorial/commit/3de26adf6537131facce2a44ba54af5328cc2466) | [Objective-C](https://github.com/theothertomelliott/WatchConnectivityTutorial/commit/da12271f89a7f951a92055fbcfb911876595be2b)
@@ -45,22 +45,22 @@ Next, we need to add the WatchConnectivity framework to our application so we ca
 
 Open the project's General Settings and click the add button under "Linked Frameworks and Libraries". Then enter WatchConnectivity and select the framework:
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/step2-addwatchconnectivity-1.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/step2-addwatchconnectivity-1.png){: .center-block}
 
 You should now see the framework in your project settings:
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/step2-addwatchconnectivity-2.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/step2-addwatchconnectivity-2.png){: .center-block}
 
 ## 3. Set up your iOS UIView and UIViewController
 GitHub: [Swift](https://github.com/theothertomelliott/WatchConnectivityTutorial/commit/da433386ea3477d82e6bf0af069d22365923ccd4) | [Objective-C](https://github.com/theothertomelliott/WatchConnectivityTutorial/commit/72bc39c4307bd9e06008f2ae09c01de2a79dbc6b)
 
 We want to have something to send from our iOS app to our watchOS app, so next we'll add a **UITextField** to our main **UIView** in the storyboard, and add an outlet and action to our UIViewController, the **ViewController** class.
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/step3-1-viewcontroller.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/step3-1-viewcontroller.png){: .center-block}
 
 For our action, I've used "editing changed", as this gives the most immediate results without having to muck about with changing focus.
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/step3-2-outletandaction.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/step3-2-outletandaction.png){: .center-block}
 
 ## 4. Set up your WatchKit App WKInterface and WatchKit Extension WKInterfaceController
 GitHub: [Swift](https://github.com/theothertomelliott/WatchConnectivityTutorial/commit/6170d1f89c581e3518911e246a62d64da99118f3) | [Objective-C](https://github.com/theothertomelliott/WatchConnectivityTutorial/commit/037dc1433521e3fb3d50d8b12c61ac41bf5a91ea)
@@ -73,19 +73,19 @@ Open the *WatchKit App* group in your project, and select Interface.storyboard t
 
 Drag a label in to your interface and open it's attributes inspector.
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/step4-addlabel.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/step4-addlabel.png){: .center-block}
 
 Here we see the second difference: positioning of controls can be managed in each control's attributes.
 
 Set the label's width and height to *"Relative to Container"* with a factor of 1. This will make the label fill your Interface.
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/step4-positionproperties.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/step4-positionproperties.png){: .center-block}
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/step4-alignedlabel.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/step4-alignedlabel.png){: .center-block}
 
 Now you can add an outlet for the label to your InterfaceController, in much the same way that you would under an iOS app. You can find the InterfaceController file under the *WatchKit Extension* group.
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/step4-addoutlet.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/step4-addoutlet.png){: .center-block}
 
 ## 5. Add a WCSession to your UIViewController
 GitHub: [Swift](https://github.com/theothertomelliott/WatchConnectivityTutorial/commit/5cff123d79ec93997437f79bb7c6e85c7bb5780b) | [Objective-C](https://github.com/theothertomelliott/WatchConnectivityTutorial/commit/7e45198e6363ee8987e9feb54930006ddcbcfa27)
@@ -211,11 +211,11 @@ In most cases, you will be taken to the iOS home screen and watchOS face rather 
 
 If the watchOS app does not appear in the watchOS simulator home screen, you may need to enable it from the Apple Watch app in the iOS simulator.
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/installing-on-watch.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/installing-on-watch.png){: .center-block}
 
 You should now be able to type in the iOS app's text field and see updates in the watchOS app!
 
-![](/assets/how-to-communicate-between-ios-and-watchos2/running-app.png){: .center-block}
+![](/blogarchive/assets/how-to-communicate-between-ios-and-watchos2/running-app.png){: .center-block}
 
 You'll probably notice that these updates can be a bit sluggish and heavy on the lag. This is a good indicator that you should probably send these updates sparingly - only in an example app can we get away with this kind of performance.
 

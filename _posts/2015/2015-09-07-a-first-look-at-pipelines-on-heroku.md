@@ -9,7 +9,7 @@ Last Thursday, Heroku announced [Heroku Flow](http://blog.heroku.com/archives/20
 
 Chief amongst these features is Heroku Pipelines, which place your development, staging and productions apps into a clear visual workflow with one-click deployment from one app to the next in line.
 
-![](/assets/heroku-pipeline1.png)
+![](/blogarchive/assets/heroku-pipeline1.png)
 
 # The Workflow
 
@@ -17,7 +17,7 @@ At its simplest, your pipeline workflow would consist of a staging app and a pro
 
 So you can double-check that you have everything in the right place before promoting, there's even a handy link to launch each app in your browser:
 
-![](/assets/heroku-pipelines2.png)
+![](/blogarchive/assets/heroku-pipelines2.png)
 
 The promotion process duplicates the app's "slug" to the next app in the workflow. This makes promotion faster than deployment from a source repo, and reduces the likelihood of problems being introduced by changes to third party dependencies - although this is a property I haven't yet tested in anger.
 

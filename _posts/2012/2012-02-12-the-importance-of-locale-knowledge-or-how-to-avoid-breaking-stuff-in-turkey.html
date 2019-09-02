@@ -23,7 +23,7 @@ author:
 
 
 ---
-<p><strong><a href="/assets/turkeyjava.png"><img class="alignright  wp-image-875" title="turkeyjava" src="/assets/turkeyjava-300x231.png" alt="" width="240" height="185" /></a>Sometimes, the little quirks and abstraction fails of a programming language can mess things up in really subtle and specific ways. Especially when it comes to localization.</strong></p>
+<p><strong><a href="/blogarchive/assets/turkeyjava.png"><img class="alignright  wp-image-875" title="turkeyjava" src="/blogarchive/assets/turkeyjava-300x231.png" alt="" width="240" height="185" /></a>Sometimes, the little quirks and abstraction fails of a programming language can mess things up in really subtle and specific ways. Especially when it comes to localization.</strong></p>
 <p>I spent most of last week wracking my brains over an oddly specific bug in our product. Namely, when you installed our server software on a Turkish copy of Windows...it didn't work. More specifically, everything started up, but nobody could login.</p>
 <p><!--more--></p>
 <p>Cutting a long story short (a dull story about a week long mostly involving reading logs) we figured out that this was because some message keys were getting truncated and ignored when parsed in Java. No message keys, no servers can talk to each other, no logins.</p>

@@ -2,7 +2,7 @@
 layout: post
 title: "Innovative UI Needs a Secret Ingredient: Familiarity"
 date: "2016-12-04 18:20:24 -0500"
-image: /media/innovative-ui-needs-a-secret-ingredient-familiarity/watchui.png
+image: /blogarchive/media/innovative-ui-needs-a-secret-ingredient-familiarity/watchui.png
 ---
 
 New and more creative user interface designs seems to be coming thick and fast in recent years. But the cleverest designs need to be anchored in familiar concepts to be intuitive.
@@ -11,11 +11,11 @@ Over the last decade (yep, the iPhone is 10 years old next year), we've been inu
 
 I've recently been using a set of bluetooth headphones that lack their own volume control, so rather than take my phone from my pocket, I tried to change the volume on my Apple Watch through the Now Playing interface:
 
-![The Now Playing UI]({{ site.github.url | replace:'http://','//' }}/media/innovative-ui-needs-a-secret-ingredient-familiarity/watchui.png){: .aligncenter}
+![The Now Playing UI]({{ site.github.url | replace:'http://','//' }}/blogarchive/media/innovative-ui-needs-a-secret-ingredient-familiarity/watchui.png){: .aligncenter}
 
 Seeing the volume icon at the bottom of the screen, my first instinct was to touch this circular "button", which opened up a volume control with plus/minus buttons and an indicator:
 
-![The Touch Volume Control]({{ site.github.url | replace:'http://','//' }}/media/innovative-ui-needs-a-secret-ingredient-familiarity/watchui_volume.png){: .aligncenter}
+![The Touch Volume Control]({{ site.github.url | replace:'http://','//' }}/blogarchive/media/innovative-ui-needs-a-secret-ingredient-familiarity/watchui_volume.png){: .aligncenter}
 
 This didn't seem like the most ideal way of controlling volume, as it required no less than four (and sometimes five) interactions to adjust the volume. A great departure from having a volume control right on my headphone cord.
 

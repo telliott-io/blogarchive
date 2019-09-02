@@ -25,7 +25,7 @@ author:
 ---
 <p><strong>After a slight digression into actual coding, I'm back on designs for my iOS Shooter Project. In today's post, I'll be looking at menu layout and View navigation.</strong></p>
 <p>Playing with the <a href="http://www.theothertomelliott.com/node/711">Storyboarding feature</a> in XCode made me want to eschew my vector drawing packages and mock up my Views directly in Interface Builder. Granted, it isn't perfect at showing exactly what goes where at a glance, but here it is:</p>
-<p style="text-align: center;"><a href="/assets/menulayout.png"><img class="aligncenter size-full wp-image-756" title="Menu and View Storyboard" src="/assets/menulayout.png" alt="" width="592" height="466" /><!--more--></a></p>
+<p style="text-align: center;"><a href="/blogarchive/assets/menulayout.png"><img class="aligncenter size-full wp-image-756" title="Menu and View Storyboard" src="/blogarchive/assets/menulayout.png" alt="" width="592" height="466" /><!--more--></a></p>
 <p style="text-align: left;">By way of explanation, the interface as a whole will be governed by a Navigation Controller, the root of which will be the Main Menu. This menu will link to 3 other Views: Options, Help and the Game Views. High Scores will be managed by an API (Game Center, OpenFeint, Scoreloop, etc - exactly which is a decision for another post).</p>
 <p style="text-align: left;"><strong>Options</strong></p>
 <p style="text-align: left;">Exactly which options are available may change as the game takes shape, but there won't be many. All options should be displayed in a single view with a "Done" button to return to the Main Menu. Options could be placed in the iOS Settings pages, but this seems a bit klunky for options you may wish to change on a game by game basis.</p>

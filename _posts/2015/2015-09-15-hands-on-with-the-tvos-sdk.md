@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hands-on with the tvOS SDK"
-image: /assets/xcode-icon.png
+image: /blogarchive/assets/xcode-icon.png
 tags:
  -
 ---
@@ -10,7 +10,7 @@ Last Wednesday, Apple announced a slew of new products, among them was the "New 
 
 I couldn't resist firing it up and having a play around, and the good news is, the SDK will be familiar to any iOS developer (or indeed OS X developer). After a couple of hours, I'd managed to port over a playable version of my [SpriteKit Space Invaders](https://github.com/theothertomelliott/SpriteKitInvaders) project:
 
-![Space Invaders on tvOS](/assets/invaders-on-tvos1.png)
+![Space Invaders on tvOS](/blogarchive/assets/invaders-on-tvos1.png)
 
 So here's a very early rundown of some of the things that may be familiar, and some that may not be so familiar about tvOS.
 
@@ -22,7 +22,7 @@ While I didn't delve too deeply, I was able to copy over most of my code from th
 
 A cursory look at the UIKit elements available to a skeleton project suggests that UIKit is similarly compatible, although the standard controls look totally different on tvOS. `UITabBarController`, for example, appears at the top of the screen as a menu that disappears when you select a tab.
 
-![Tab Bars on tvOS](/assets/tabbars-on-tvos1.png)
+![Tab Bars on tvOS](/blogarchive/assets/tabbars-on-tvos1.png)
 
 So while you can share a lot of code, this doesn't mean that porting your iOS apps will be 100% straightforward, as there are some major differences between the platforms.
 

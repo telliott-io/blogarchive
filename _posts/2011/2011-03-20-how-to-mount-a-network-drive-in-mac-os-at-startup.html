@@ -35,7 +35,7 @@ author:
 <p>
 	If we&#39;re going to load a drive, we need to know where it is. You can do this by mounting it manually, then Command-Clicking the volume on the desktop and selecting &quot;Get Info&quot;.</p>
 <p class="rtecenter">
-	<img alt="" src="/assets/1-getinfo.png" style="width: 250px; height: 320px;" /></p>
+	<img alt="" src="/blogarchive/assets/1-getinfo.png" style="width: 250px; height: 320px;" /></p>
 <p>
 	Copy the value for &quot;Server&quot; (shown highlighted), this is the path we&#39;ll need.</p>
 <p>
@@ -54,11 +54,11 @@ end tell</strong>
 <p>
 	Where <em>&lt;PATH&gt;</em> is the path you copied in step 1.</p>
 <p class="rtecenter">
-	<img alt="" src="/assets/2-mountscript.png" style="width: 500px; height: 161px;" /></p>
+	<img alt="" src="/blogarchive/assets/2-mountscript.png" style="width: 500px; height: 161px;" /></p>
 <p>
 	So this script will run whenever you double-click it (instead of opening the editor again), be sure to save it as an Application (note the &quot;File Format&quot; option below).</p>
 <p class="rtecenter">
-	<img alt="" src="/assets/3-saveapp.png" style="width: 438px; height: 269px;" /></p>
+	<img alt="" src="/blogarchive/assets/3-saveapp.png" style="width: 438px; height: 269px;" /></p>
 <p>
 	So let&#39;s give that a try. Eject your networked Volume and double-click on the script application you&#39;ve just created. The volume should re-appear, as if by magic (if Clarke&#39;s quote is accurate). We&#39;re nearly there!</p>
 <p>
@@ -66,7 +66,7 @@ end tell</strong>
 <p>
 	Open the <em>Accounts</em> dialog in <em>System Preferences</em>. Select the <strong>Login Items</strong> tab and authorize yourself for changes by clicking the lock icon in the bottom left hand corner. Once you&#39;ve done that, click the plus button under the login items list and select the application you created. It should now appear in the list:</p>
 <p class="rtecenter">
-	<img alt="" src="/assets/5-added.png" style="width: 500px; height: 408px;" /></p>
+	<img alt="" src="/blogarchive/assets/5-added.png" style="width: 500px; height: 408px;" /></p>
 <p>
 	Fingers crossed, your network share should be mounted every single time you log in. If you feel like it, you can do the same for other users too.</p>
 <p>
@@ -91,7 +91,7 @@ end tell</strong>
 end tell</strong>
 </pre>
 <p class="rtecenter">
-	<img alt="" src="/assets/6-scriptdropbox.png" style="width: 500px; height: 193px;" /></p>
+	<img alt="" src="/blogarchive/assets/6-scriptdropbox.png" style="width: 500px; height: 193px;" /></p>
 <p>
 	These lines will start Dropbox. As they run after the rest of the script, Dropbox won&#39;t start up until after the volume it needs has been mounted. You could add calls for multiple applications here. This won&#39;t necessarily work for all applications, but it&#39;s a good start.</p>
 <p>

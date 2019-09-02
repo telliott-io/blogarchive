@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using rbenv to install Cocoapods post El Capitan"
-image: /assets/cocoapods-twitter-icon.png
+image: /blogarchive/assets/cocoapods-twitter-icon.png
 tags:
  -
 ---

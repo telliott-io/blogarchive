@@ -27,10 +27,10 @@ author:
 <p>And worse than just getting a warning, <em>none of my NSManagedObject instances persisted</em>.</p>
 <p><!--more--></p>
 <p>It turns out this is a result of the default name for the entity class in the model configuration, which was generated along with the corresponding NSManagedObject subclass:</p>
-<p><a href="/assets/EntityWithDot1.png"><img class="alignright wp-image-1315 size-full" src="/assets/EntityWithDot1.png" alt="" width="1024" height="328" /></a></p>
+<p><a href="/blogarchive/assets/EntityWithDot1.png"><img class="alignright wp-image-1315 size-full" src="/blogarchive/assets/EntityWithDot1.png" alt="" width="1024" height="328" /></a></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Note the dot in front of the class name. This is inserted for the sake of namespacing, which doesn't exist in Swift. As a quick fix for this, I just removed the dot to refer to the class explicitly.</p>
-<p><a href="/assets/EntityWithoutDot1.png"><img class=" wp-image-1316 size-full alignnone" src="/assets/EntityWithoutDot1.png" alt="" width="1000" height="302" /></a></p>
+<p><a href="/blogarchive/assets/EntityWithoutDot1.png"><img class=" wp-image-1316 size-full alignnone" src="/blogarchive/assets/EntityWithoutDot1.png" alt="" width="1000" height="302" /></a></p>
 <p>This got rid of the annoying warning, and my entities persisted as expected.</p>
 <p>Since XCode 7 (and indeed, Swift 2) are still in beta, there are going to be a number of changes to come, so this problem may go away, or the behavior may be altered so this fix no longer works (or breaks things that might otherwise work). So I'm going to keep a close eye on this one and update this post should anything change.</p>

@@ -24,7 +24,7 @@ author:
 
 
 ---
-<p><a href="/assets/Screen-Shot-2014-10-30-at-22.44.50.png"><img class="alignright wp-image-1113" src="/assets/Screen-Shot-2014-10-30-at-22.44.50.png" alt="Screen Shot 2014-10-30 at 22.44.50" width="300" height="148" /></a>It's Thursday night, and you're looking to start using Redis in your Laravel application. You fire up your <a href="http://laravel.com/docs/4.2/homestead">Homestead</a> box (more on this in another post), open your favourite IDE and put in a new route to start playing around. Just something simple to start, write then read a value, just like the <a href="http://laravel.com/docs/4.2/redis#usage">example</a>.</p>
+<p><a href="/blogarchive/assets/Screen-Shot-2014-10-30-at-22.44.50.png"><img class="alignright wp-image-1113" src="/blogarchive/assets/Screen-Shot-2014-10-30-at-22.44.50.png" alt="Screen Shot 2014-10-30 at 22.44.50" width="300" height="148" /></a>It's Thursday night, and you're looking to start using Redis in your Laravel application. You fire up your <a href="http://laravel.com/docs/4.2/homestead">Homestead</a> box (more on this in another post), open your favourite IDE and put in a new route to start playing around. Just something simple to start, write then read a value, just like the <a href="http://laravel.com/docs/4.2/redis#usage">example</a>.</p>
 <p>You save, and load up the route in your browser, only to see:</p>
 <pre>Call to undefined method Redis::connection()</pre>
 <p>That can't be right, can it? The Redis class is built-in to Laravel, and connection() was in the example. How can it be missing?</p>

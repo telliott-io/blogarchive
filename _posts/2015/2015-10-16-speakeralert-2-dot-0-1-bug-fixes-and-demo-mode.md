@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Speaker Alert 2.0.1: Bug fixes and demo mode"
-image: /assets/SpeakerAlert-Icon.png
+image: /blogarchive/assets/SpeakerAlert-Icon.png
 tags:
  -
 ---
@@ -16,5 +16,5 @@ Version 2.0.1 adds:
 
 Speaker Alert 2.0.1 is 100% free and available today for iOS 8 and higher.
 
-[![](/assets/appstore-badge.svg)](https://itunes.apple.com/us/app/speaker-alert/id488585337?mt=8)
+[![](/blogarchive/assets/appstore-badge.svg)](https://itunes.apple.com/us/app/speaker-alert/id488585337?mt=8)
 

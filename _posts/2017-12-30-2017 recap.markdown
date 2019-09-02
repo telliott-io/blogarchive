@@ -2,7 +2,7 @@
 layout: post
 title: "2017 Recap"
 date: "2017-12-30 18:20:24 -0500"
-image: /assets/new-year1.jpg
+image: /blogarchive/assets/new-year1.jpg
 ---
 
 I managed to go the whole year without posting anything to this blog, but that's not to say I haven't been busy. Here's a quick outline of some of the things I've been working on outside of this particular domain.

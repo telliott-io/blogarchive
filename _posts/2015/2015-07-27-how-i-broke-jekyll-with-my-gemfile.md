@@ -2,7 +2,7 @@
 layout: post
 title: "How I Broke Jekyll With My Gemfile"
 published: true
-image: /assets/bundler-logo.jpg
+image: /blogarchive/assets/bundler-logo.jpg
 tags:
  -
 ---

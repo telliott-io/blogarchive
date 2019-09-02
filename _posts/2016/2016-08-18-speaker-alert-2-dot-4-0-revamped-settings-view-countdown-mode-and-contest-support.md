@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Speaker Alert 2.4.0: Revamped Settings View, Countdown Mode and Contest Support"
-image: /assets/SpeakerAlert-Icon.png
+image: /blogarchive/assets/SpeakerAlert-Icon.png
 ---
 
 Version 2.4.0 of Speaker Alert is now available in the app store. This version overhauls the settings screens and provides a number of new options to give you exactly the view you need during your speech.
 
-![Updated Settings View]({{ site.github.url | replace:'http://','//' }}/media/speaker-alert-2-dot-4-0-revamped-settings-view-countdown-mode-and-contest-support/SettingsScreen.png){: .aligncenter}
+![Updated Settings View]({{ site.github.url | replace:'http://','//' }}/blogarchive/media/speaker-alert-2-dot-4-0-revamped-settings-view-countdown-mode-and-contest-support/SettingsScreen.png){: .aligncenter}
 
 ### New Options
 
@@ -36,4 +36,4 @@ All the new settings added in 2.4.0 were based on user feedback, so you can real
 
 Happy Speaking!
 
-[![App Store]({{ site.github.url | replace:'http://','//'}}/assets/appstore-badge.svg)](https://itunes.apple.com/us/app/speaker-alert/id488585337?mt=8)
+[![App Store]({{ site.github.url | replace:'http://','//'}}/blogarchive/assets/appstore-badge.svg)](https://itunes.apple.com/us/app/speaker-alert/id488585337?mt=8)

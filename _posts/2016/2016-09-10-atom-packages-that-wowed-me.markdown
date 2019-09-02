@@ -2,7 +2,7 @@
 layout: post
 title: "Atom Packages That Wowed Me"
 date: "2016-09-10 18:44:52 -0400"
-image: /media/logos/atom.png
+image: /blogarchive/media/logos/atom.png
 ---
 
 After about a year of using Vim for a sizable chunk of my text editing, last week I got a bit frustrated with a weird autocomplete bug and started playing around with Atom. I've been mightily impressed. Atom is surprisingly zippy for a JavaScript-based application, has a nice intuitive split/tab mechanism and gives me absolute control over my keyboard shortcuts so I can set up some approximations of the shortcuts I had in Vim.
@@ -20,7 +20,7 @@ Go Plus is an aggregation of packages that enhance the Go development experience
 
 This is far from a complete list (the rest are on the package page). The last one of these is by far my favorite, and not something I'd seen before. Whenever you save a go source file, the tester-go package will run the tests in the same package and display coverage information right there in the editor:
 
-![not all code covered by tests]({{ site.github.url | replace:'http://','//' }}/media/atom-packages-that-wowed-me/coverage.png){: .aligncenter}
+![not all code covered by tests]({{ site.github.url | replace:'http://','//' }}/blogarchive/media/atom-packages-that-wowed-me/coverage.png){: .aligncenter}
 
 This is a huge help when writing tests, giving an up-to-the-second view on how many more tests you probably need to write.
 
@@ -30,13 +30,13 @@ Another one for the list of tools I didn't know I was missing. go-outline provid
 
 This package does require that you install the go-outline-parser tool to your PATH yourself, so be sure to check the README.
 
-![go-outline view beside code]({{ site.github.url | replace:'http://','//' }}/media/atom-packages-that-wowed-me/go-outline.png){: .aligncenter}
+![go-outline view beside code]({{ site.github.url | replace:'http://','//' }}/blogarchive/media/atom-packages-that-wowed-me/go-outline.png){: .aligncenter}
 
 # [seti](https://atom.io/themes/seti-ui) / [monokai-seti](https://atom.io/themes/monokai-seti)
 
 A nice pairing of a UI theme and a syntax theme that makes code in Atom look a lot like my configuration of Vim, which looked a bit like Sublime...
 
-![monokai-seti in action]({{ site.github.url | replace:'http://','//' }}/media/atom-packages-that-wowed-me/monokai-seti.png){: .aligncenter}
+![monokai-seti in action]({{ site.github.url | replace:'http://','//' }}/blogarchive/media/atom-packages-that-wowed-me/monokai-seti.png){: .aligncenter}
 
 # [jekyll-atom](https://atom.io/packages/jekyll)
 
@@ -47,7 +47,7 @@ I dug this one out specifically to work on this blog post, and it's saved me a h
 * Local serve (with status notification when rebuilding)
 * Snippets galore
 
-![Your site has rebuilt]({{ site.github.url | replace:'http://','//' }}/media/atom-packages-that-wowed-me/jekyll.png){: .aligncenter}
+![Your site has rebuilt]({{ site.github.url | replace:'http://','//' }}/blogarchive/media/atom-packages-that-wowed-me/jekyll.png){: .aligncenter}
 
 # [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)
 

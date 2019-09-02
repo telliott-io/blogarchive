@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Auto Layout, and how to royally mess it up (at iOSoho)"
-image: /assets/xcode-icon.png
+image: /blogarchive/assets/xcode-icon.png
 tags:
  -
 ---
@@ -14,6 +14,6 @@ I spoke on Auto Layout, covering the issues that we'd had at Yext during develop
 * Ambiguous Layout
 * Crashes
 
-<script async class="speakerdeck-embed" data-id="73679e2942ec40d7a1cb08fd4b3ca13b" data-ratio="1.29456384323641" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="73679e2942ec40d7a1cb08fd4b3ca13b" data-ratio="1.29456384323641" src="//speakerdeck.com/blogarchive/assets/embed.js"></script>
 
 I had a fantastic time and would heartily recommend the meetup to any iOS engineer. Thanks to Marc for giving me the opportunity to present, and to Spotify's New York team for hosting the evening. Already looking forward to [next month's event](http://www.meetup.com/iOSoho/events/226315779/), hosted at Vimeo. This month the waitlist was over 100 people, so be sure to sign up early to get your spot!

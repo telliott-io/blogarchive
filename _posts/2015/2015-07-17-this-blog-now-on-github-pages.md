@@ -2,12 +2,12 @@
 layout: post
 published: true
 title: "This blog now on GitHub Pages!"
-image: /assets/Octocat.jpg
+image: /blogarchive/assets/Octocat.jpg
 tags:
  -
 ---
 
-![GitHub](/assets/Octocat.jpg){: .alignright} After a few years with [Wordpress](https://wordpress.org/) on a VPS server, I've moved this site over to [Jekyll](http://jekyllrb.com/) running on [GitHub Pages](https://pages.github.com/).
+![GitHub](/blogarchive/assets/Octocat.jpg){: .alignright} After a few years with [Wordpress](https://wordpress.org/) on a VPS server, I've moved this site over to [Jekyll](http://jekyllrb.com/) running on [GitHub Pages](https://pages.github.com/).
 
 Jekyll is a framework for building static sites from template files, which is vastly different to the database-oriented CMS model of Wordpress. As such, it lacks some of the more dynamic features of Wordpress (such as locally-hosted comments), but for this site the switch made a lot of sense for a number of reasons:
 

@@ -27,7 +27,7 @@ author:
 <p><!--more--></p>
 <h2>The Problem</h2>
 <p>One major hole in Apple's iOS development arsenal is the interplay between keyboard and View. The virtual keyboard will obscure the bottom segment of the screen when it appears, and by default, doesn't have any clear way to be dismissed. Which can cause major problems when you've got a form with even a few text boxes in a 3.5" layout.</p>
-<p><a href="/assets/Keyboard-screencap-1.gif"><img class="aligncenter wp-image-1129 size-full" src="/assets/Keyboard-screencap-1.gif" alt="Cheesy keyboard annoyance GIF" width="480" height="320" /></a></p>
+<p><a href="/blogarchive/assets/Keyboard-screencap-1.gif"><img class="aligncenter wp-image-1129 size-full" src="/blogarchive/assets/Keyboard-screencap-1.gif" alt="Cheesy keyboard annoyance GIF" width="480" height="320" /></a></p>
 <p>In the past, I've had to solve this problem by adding the entire form to a scrollview and then finding an article with a code sample to handle the scrolling, or a couple of classes that could be attached to a form that had been set up correctly. Regardless, this always ended up a pain, because I'm the kind of programmer who forgets such trickery and ends up making a scrollview-less form that I quickly realize I need to rebuild completely.</p>
 <p>Finding myself in that annoying position again, I took to CocoaPods in search of at least some more easily-reusable scroll handling code, and a faint hope that there would be something to perhaps cleverly add the scrollview for me. What I found was IQKeyboardManager, a perfect solution to this half-decade old pain in the arse.</p>
 <h2>What it Does</h2>

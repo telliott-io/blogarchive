@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "The Importance of Keeping Your Speech To Time"
-image: /assets/big-clock-preview.jpg
+image: /blogarchive/assets/big-clock-preview.jpg
 tags:
  -
 ---
 
-![](/assets/big-clock-top.png)
+![](/blogarchive/assets/big-clock-top.png)
 
 When you're up on stage, timing can be everything. Beginning your speech at just the right moment as the applause dies down. Giving the audience a moment to let an important idea sink in. Letting laughter run just long enough for everyone to enjoy it, but not so long it fades and gets awkward. Timing is crucial, but many speakers forget the most important aspect of timing: using the time you have been allocated effectively, by going neither over, nor significantly under time.
 
@@ -38,8 +38,8 @@ As I advocated in a [previous article](http://telliott.io/node/483/), running th
 
 Of course, practicing a speech is very different from actually giving one. You may find that you speed up due to nerves, slowed down for raucous laughs, or distracted by an unexpected aardvark escape on the front row. As such, you'll need a way of keeping track of time while you're actually speaking. Many events will have timing signals provided, but it's good to have your own backup just in case.
 
-![](/assets/SpeakerAlert-Icon.png){: .alignright} It's for this reason that I wrote Speaker Alert, an iOS app that lets you know how much time you have left through easy-to-recognize lighting cues (based on the traffic-light model used by Toastmasters), or discreet vibration alerts on your phone or Apple Watch. For practicing, you can also see your current elapsed time on-screen.
+![](/blogarchive/assets/SpeakerAlert-Icon.png){: .alignright} It's for this reason that I wrote Speaker Alert, an iOS app that lets you know how much time you have left through easy-to-recognize lighting cues (based on the traffic-light model used by Toastmasters), or discreet vibration alerts on your phone or Apple Watch. For practicing, you can also see your current elapsed time on-screen.
 
 Speaker Alert is 100% free and available today for iOS 8 and higher.
 
-[![](/assets/appstore-badge.svg)](https://itunes.apple.com/us/app/speaker-alert/id488585337?mt=8)
+[![](/blogarchive/assets/appstore-badge.svg)](https://itunes.apple.com/us/app/speaker-alert/id488585337?mt=8)

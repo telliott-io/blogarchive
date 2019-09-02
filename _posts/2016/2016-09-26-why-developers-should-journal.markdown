@@ -2,10 +2,10 @@
 layout: post
 title: "Why Developers Should Journal"
 date: "2016-09-26 18:46:26 -0400"
-image: /media/why-developers-should-journal/journal-small.jpeg
+image: /blogarchive/media/why-developers-should-journal/journal-small.jpeg
 ---
 
-![Your Journal]({{ site.github.url | replace:'http://','//' }}/media/why-developers-should-journal/journal.jpeg){: .aligncenter}
+![Your Journal]({{ site.github.url | replace:'http://','//' }}/blogarchive/media/why-developers-should-journal/journal.jpeg){: .aligncenter}
 
 Most developers I know hate writing. Spec writing and documentation are dreaded tasks to be avoided in favor of getting a little more coding done. I'm no exception to this, my Trello board full of blog ideas that I never quite managed to get beyond a few notes. To try and combat this, I've recently started keeping a daily journal, which has had some unexpectedly useful effects.
 

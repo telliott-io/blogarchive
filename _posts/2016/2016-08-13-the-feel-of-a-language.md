@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "The 'feel' of a language"
-image: /media/the-feel-of-a-language/programming_small.png
+image: /blogarchive/media/the-feel-of-a-language/programming_small.png
 ---
-![Header - laptop with code](/media/the-feel-of-a-language/programming.jpg){: .aligncenter}
+![Header - laptop with code](/blogarchive/media/the-feel-of-a-language/programming.jpg){: .aligncenter}
 
 I've been thinking a lot about programming language choices lately, and realized that a lot of my preferences relate to how a language "feels" to me. This may be down to the properties of the language, the look of its syntax or something as meaningless as the style of a tutorial website. There's nothing particularly wrong with having a gut reaction to something, but when it can influence your decisions, it's important to understand that they are just that and should be weighed accordingly.
 
