@@ -25,6 +25,7 @@ kind: Service
 metadata:
   name: blogarchive
 spec:
+  type: NodePort
   selector:
     app: blogarchive
   ports:
