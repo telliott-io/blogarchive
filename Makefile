@@ -1,7 +1,7 @@
 JEKYLL_VERSION = latest
 
 build:
-	docker run --rm --volume="$(PWD):/srv/jekyll" --volume "$(PWD)/vendor/bundle:/usr/local/bundle" -it jekyll/jekyll:$(JEKYLL_VERSION) jekyll build .
+	docker run --rm --volume="$(PWD):/srv/jekyll" --volume "$(PWD)/vendor/bundle:/usr/local/bundle" jekyll/jekyll:$(JEKYLL_VERSION) jekyll build .
 	docker build -t telliottio/blogarchive:latest .
 
 push: build
