@@ -5,7 +5,7 @@ metadata:
   name: blogarchive
 spec:
   rules:
-  - host: blogarchive.telliott.io
+  - host: telliott.io
     http:
       paths:
       - path: /node/
