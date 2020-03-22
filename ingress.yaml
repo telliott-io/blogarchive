@@ -1,0 +1,132 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: blogarchive
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+  - host: telliott.io
+    http:
+      paths:
+      - path: /node/
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /2015/
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /2016/
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /2017/
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /blogarchive
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page2
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page3
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page4
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page5
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page6
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page7
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page8
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page9
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page10
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page11
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page12
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page13
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page14
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page15
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page16
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page17
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page18
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page19
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page20
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page21
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page22
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page23
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page24
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page25
+        backend:
+          serviceName: blogarchive
+          servicePort: http
+      - path: /page26
+        backend:
+          serviceName: blogarchive
+          servicePort: http
