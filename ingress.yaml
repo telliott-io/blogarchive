@@ -11,180 +11,210 @@ spec:
     http:
       paths:
       - path: /node/
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /2015/
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /2016/
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /2017/
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /blogarchive
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page2
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page3
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page4
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page5
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page6
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page7
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page8
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page9
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page10
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page11
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page12
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page13
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page14
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page15
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page16
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page17
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page18
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page19
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page20
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page21
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page22
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page23
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page24
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page25
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
               port:
                 name: http
       - path: /page26
+        pathType: Prefix
         backend:
           service:
               name: blogarchive
