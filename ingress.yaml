@@ -1,5 +1,5 @@
 ---
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: blogarchive
@@ -12,121 +12,181 @@ spec:
       paths:
       - path: /node/
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /2015/
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /2016/
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /2017/
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /blogarchive
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page2
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page3
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page4
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page5
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page6
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page7
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page8
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page9
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page10
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page11
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page12
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page13
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page14
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page15
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page16
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page17
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page18
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page19
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page20
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page21
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page22
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page23
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page24
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page25
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
       - path: /page26
         backend:
-          serviceName: blogarchive
-          servicePort: http
+          service:
+              name: blogarchive
+              port:
+                name: http
